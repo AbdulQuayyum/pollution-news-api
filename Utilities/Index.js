@@ -5,7 +5,7 @@ module.exports = [
         base: ''
     },
     {
-        name: 'news medical life sciences',
+        name: 'news-medical-life-sciences',
         address: 'https://www.news-medical.net/news/20221027/New-report-highlights-the-heat-impacts-of-air-pollution-in-Africa.aspx#:~:text=Africa%20is%20home%20to%20five,term%20exposure%20to%20air%20pollution.',
         base: 'https://www.news-medical.net'
     },
