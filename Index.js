@@ -14,12 +14,12 @@ app.get('/', (req, res) => {
 })
 
 app.get('/News', (req, res) => {
-    axios.get('https://www.theguardian.com/environment/climate-crisis')
+    axios.get('https://www.greenpeace.org/africa/en/blogs/49015/what-are-the-causes-and-effects-of-water-pollution-in-afri')
         .then((response) => {
             const html = response.data
             const $ = cheerio.load(html)
 
-            $('a:contains("climate")', html).each(function () {
+            $('a:contains("pollution")', html).each(function () {
                 const title = $(this).text()
                 const url = $(this).attr('href')
                 articles.push({ title, url })
