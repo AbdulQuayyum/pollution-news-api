@@ -13,8 +13,10 @@ app.get('/', (req, res) => {
     res.json('This is a Climate Change News API')
 })
 
+const link = ""
+
 app.get('/News', (req, res) => {
-    axios.get('https://www.greenpeace.org/africa/en/blogs/49015/what-are-the-causes-and-effects-of-water-pollution-in-afri')
+    axios.get(link)
         .then((response) => {
             const html = response.data
             const $ = cheerio.load(html)

@@ -1,67 +1,52 @@
 module.exports = [
     {
-        name: 'cityam',
-        address: 'https://www.cityam.com/london-must-become-a-world-leader-on-climate-change-action/',
+        name: 'Greenpeace',
+        address: 'https://www.greenpeace.org/africa/en/blogs/49015/what-are-the-causes-and-effects-of-water-pollution-in-africa/',
         base: ''
     },
     {
-        name: 'thetimes',
-        address: 'https://www.thetimes.co.uk/environment/climate-change',
+        name: 'news medical life sciences',
+        address: 'https://www.news-medical.net/news/20221027/New-report-highlights-the-heat-impacts-of-air-pollution-in-Africa.aspx#:~:text=Africa%20is%20home%20to%20five,term%20exposure%20to%20air%20pollution.',
         base: ''
     },
     {
-        name: 'guardian',
-        address: 'https://www.theguardian.com/environment/climate-crisis',
+        name: 'unep',
+        address: 'https://www.unep.org/resources/report/air-pollution-and-development-africa-impacts-health-economy-and-human-capital',
         base: '',
     },
     {
-        name: 'telegraph',
-        address: 'https://www.telegraph.co.uk/climate-change',
-        base: 'https://www.telegraph.co.uk',
-    },
-    {
-        name: 'nyt',
-        address: 'https://www.nytimes.com/international/section/climate',
+        name: 'unep.org',
+        address: 'https://www.unep.org/explore-topics/disasters-conflicts/where-we-work/nigeria/ogonilands-oil-history',
         base: '',
     },
     {
-        name: 'latimes',
-        address: 'https://www.latimes.com/environment',
+        name: 'cnn',
+        address: 'https://edition.cnn.com/2022/05/25/africa/shell-oil-spills-nigeria-intl-cmd/index.html',
         base: '',
     },
     {
-        name: 'smh',
-        address: 'https://www.smh.com.au/environment/climate-change',
-        base: 'https://www.smh.com.au',
-    },
-    {
-        name: 'un',
-        address: 'https://www.un.org/climatechange',
+        name: 'africanews',
+        address: 'https://www.africanews.com/2022/10/28/africa-air-pollution-a-silent-killer-in-cities-study//',
         base: '',
     },
     {
-        name: 'bbc',
-        address: 'https://www.bbc.co.uk/news/science_and_environment',
-        base: 'https://www.bbc.co.uk',
+        name: 'sei',
+        address: 'https://www.sei.org/featured/africa-air-pollution-and-climate-change/',
+        base: '',
     },
     {
-        name: 'es',
-        address: 'https://www.standard.co.uk/topic/climate-change',
-        base: 'https://www.standard.co.uk'
+        name: 'bcedu',
+        address: 'https://www.bc.edu/bc-web/bcnews/nation-world-society/international/air-pollution-in-africa.html',
+        base: '',
     },
     {
-        name: 'sun',
-        address: 'https://www.thesun.co.uk/topic/climate-change-environment/',
-        base: ''
+        name: 'health policy watch',
+        address: 'https://healthpolicy-watch.news/fossil-fuels-harms-health-as-well-as-the-planet/',
+        base: '',
     },
     {
-        name: 'dm',
-        address: 'https://www.dailymail.co.uk/news/climate_change_global_warming/index.html',
-        base: ''
+        name: 'france24',
+        address: 'https://www.france24.com/en/tv-shows/revisited/20210702-polluted-by-the-oil-industry-life-in-nigeria-s-ogoniland',
+        base: '',
     },
-    {
-        name: 'nyp',
-        address: 'https://nypost.com/tag/climate-change/',
-        base: ''
-    }
 ]
